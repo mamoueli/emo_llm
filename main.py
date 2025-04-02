@@ -13,5 +13,5 @@ def main(testing = False, testing_num = 3):
     with open('final_results_v3_gpt.json', 'w') as file:
         json.dump(data, file, indent=4)
 
-
-#testing=True to run
+if __name__ == "__main__":
+    main(testing=True, testing_num=40)
